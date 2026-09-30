@@ -1,0 +1,15 @@
+APRENDIZAJES - Gestión de identidad: bóvedas, MFA y Passkeys
+
+1. Un gestor de contraseñas (Bitwarden en la nube o KeePassXC local) elimina
+   la reutilización: recuerdo una sola frase maestra larga y el generador crea
+   contraseñas únicas de 16+ caracteres para cada sitio.
+
+2. El MFA combina factores distintos (algo que sé, algo que tengo, algo que soy).
+   SMS es el más débil (SIM swapping); TOTP es mejor y las llaves FIDO2 son el
+   estándar de oro. En KeePassXC, el archivo llave cumple el rol de "algo que tengo".
+
+3. Las Passkeys usan un par de llaves: la privada nunca sale de mi dispositivo y
+   solo funciona en el dominio real, así que son inmunes al phishing y un hackeo
+   del servidor no expone nada útil. Y con VeraCrypt, mis archivos quedan
+   ilegibles aunque pierda la computadora, pero si olvido la contraseña, no hay
+   recuperación posible.
