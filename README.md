@@ -1,7 +1,6 @@
 # Práctica: Mi Bóveda y Contenedor Seguro
 
 **Módulo:** Criptografía Práctica y Gestión de Identidad
-**Autor:** Juan Pablo Bottazzini
 **Herramientas:** KeePassXC (gestor local) + VeraCrypt (cifrado de volúmenes)
 
 ## Objetivo
