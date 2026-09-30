@@ -1,0 +1,6 @@
+# Nunca subir la bóveda, el archivo llave ni el contenedor cifrado
+*.kdbx
+*.kdbx.old
+*.keyx
+*.key
+*.hc
